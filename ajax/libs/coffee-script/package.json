@@ -1,7 +1,7 @@
 {
   "name": "coffee-script",
-  "filename": "coffee-script.min.js",
-  "version": "1.12.8",
+  "filename": "coffeescript.js",
+  "version": "2.5.1",
   "description": "Unfancy JavaScript",
   "homepage": "http://jashkenas.github.com/coffee-script/",
   "keywords": [
@@ -12,12 +12,12 @@
     "script",
     "popular"
   ],
-  "npmName": "coffee-script",
+  "npmName": "coffeescript",
   "npmFileMap": [
     {
-      "basePath": "lib/coffee-script",
+      "basePath": "lib/coffeescript-browser-compiler-modern",
       "files": [
-        "coffee-script.js"
+        "coffeescript.js"
       ]
     }
   ],

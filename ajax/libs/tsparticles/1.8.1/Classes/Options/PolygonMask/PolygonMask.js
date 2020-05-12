@@ -1,0 +1,33 @@
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.PolygonMask = void 0;
+
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/classCallCheck"));
+
+var _PolygonMaskType = require("../../../Enums/PolygonMaskType");
+
+var _Draw = require("./Draw");
+
+var _Move = require("./Move");
+
+var PolygonMask = function PolygonMask() {
+  (0, _classCallCheck2["default"])(this, PolygonMask);
+  this.draw = void 0;
+  this.move = void 0;
+  this.scale = void 0;
+  this.type = void 0;
+  this.url = void 0;
+  this.draw = new _Draw.Draw();
+  this.move = new _Move.Move();
+  this.scale = 1;
+  this.type = _PolygonMaskType.PolygonMaskType.none;
+  this.url = "";
+};
+
+exports.PolygonMask = PolygonMask;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3NyYy9DbGFzc2VzL09wdGlvbnMvUG9seWdvbk1hc2svUG9seWdvbk1hc2sudHMiXSwibmFtZXMiOlsiUG9seWdvbk1hc2siLCJkcmF3IiwibW92ZSIsInNjYWxlIiwidHlwZSIsInVybCIsIkRyYXciLCJNb3ZlIiwiUG9seWdvbk1hc2tUeXBlIiwibm9uZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFDQTs7QUFDQTs7QUFDQTs7SUFJYUEsVyxHQU9ULHVCQUFjO0FBQUE7QUFBQSxPQU5QQyxJQU1PO0FBQUEsT0FMUEMsSUFLTztBQUFBLE9BSlBDLEtBSU87QUFBQSxPQUhQQyxJQUdPO0FBQUEsT0FGUEMsR0FFTztBQUNWLE9BQUtKLElBQUwsR0FBWSxJQUFJSyxVQUFKLEVBQVo7QUFDQSxPQUFLSixJQUFMLEdBQVksSUFBSUssVUFBSixFQUFaO0FBQ0EsT0FBS0osS0FBTCxHQUFhLENBQWI7QUFDQSxPQUFLQyxJQUFMLEdBQVlJLGlDQUFnQkMsSUFBNUI7QUFDQSxPQUFLSixHQUFMLEdBQVcsRUFBWDtBQUNILEMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge0lQb2x5Z29uTWFza30gZnJvbSBcIi4uLy4uLy4uL0ludGVyZmFjZXMvT3B0aW9ucy9Qb2x5Z29uTWFzay9JUG9seWdvbk1hc2tcIjtcbmltcG9ydCB7UG9seWdvbk1hc2tUeXBlfSBmcm9tIFwiLi4vLi4vLi4vRW51bXMvUG9seWdvbk1hc2tUeXBlXCI7XG5pbXBvcnQge0RyYXd9IGZyb20gXCIuL0RyYXdcIjtcbmltcG9ydCB7TW92ZX0gZnJvbSBcIi4vTW92ZVwiO1xuaW1wb3J0IHtJUG9seWdvbk1hc2tEcmF3fSBmcm9tIFwiLi4vLi4vLi4vSW50ZXJmYWNlcy9PcHRpb25zL1BvbHlnb25NYXNrL0lQb2x5Z29uTWFza0RyYXdcIjtcbmltcG9ydCB7SVBvbHlnb25NYXNrTW92ZX0gZnJvbSBcIi4uLy4uLy4uL0ludGVyZmFjZXMvT3B0aW9ucy9Qb2x5Z29uTWFzay9JUG9seWdvbk1hc2tNb3ZlXCI7XG5cbmV4cG9ydCBjbGFzcyBQb2x5Z29uTWFzayBpbXBsZW1lbnRzIElQb2x5Z29uTWFzayB7XG4gICAgcHVibGljIGRyYXc6IElQb2x5Z29uTWFza0RyYXc7XG4gICAgcHVibGljIG1vdmU6IElQb2x5Z29uTWFza01vdmU7XG4gICAgcHVibGljIHNjYWxlOiBudW1iZXI7XG4gICAgcHVibGljIHR5cGU6IFBvbHlnb25NYXNrVHlwZTtcbiAgICBwdWJsaWMgdXJsOiBzdHJpbmc7XG5cbiAgICBjb25zdHJ1Y3RvcigpIHtcbiAgICAgICAgdGhpcy5kcmF3ID0gbmV3IERyYXcoKTtcbiAgICAgICAgdGhpcy5tb3ZlID0gbmV3IE1vdmUoKTtcbiAgICAgICAgdGhpcy5zY2FsZSA9IDE7XG4gICAgICAgIHRoaXMudHlwZSA9IFBvbHlnb25NYXNrVHlwZS5ub25lO1xuICAgICAgICB0aGlzLnVybCA9IFwiXCI7XG4gICAgfVxufVxuIl19

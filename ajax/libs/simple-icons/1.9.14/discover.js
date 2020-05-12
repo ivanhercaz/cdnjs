@@ -1,0 +1,1 @@
+module.exports={"title":"Discover","hex":"FF6000","source":"https://www.discovernetwork.com/en-us/business-resources/free-signage-logos","svg":"<svg role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>Discover icon</title><circle cx=\"12\" cy=\"12\" r=\"12\"/></svg>"};

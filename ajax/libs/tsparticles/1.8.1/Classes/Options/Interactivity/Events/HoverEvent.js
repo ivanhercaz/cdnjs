@@ -1,0 +1,27 @@
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.HoverEvent = void 0;
+
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/classCallCheck"));
+
+var _HoverMode = require("../../../../Enums/Modes/HoverMode");
+
+var _Parallax = require("./Parallax");
+
+var HoverEvent = function HoverEvent() {
+  (0, _classCallCheck2["default"])(this, HoverEvent);
+  this.enable = void 0;
+  this.mode = void 0;
+  this.parallax = void 0;
+  this.enable = true;
+  this.mode = _HoverMode.HoverMode.grab;
+  this.parallax = new _Parallax.Parallax();
+};
+
+exports.HoverEvent = HoverEvent;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uL3NyYy9DbGFzc2VzL09wdGlvbnMvSW50ZXJhY3Rpdml0eS9FdmVudHMvSG92ZXJFdmVudC50cyJdLCJuYW1lcyI6WyJIb3ZlckV2ZW50IiwiZW5hYmxlIiwibW9kZSIsInBhcmFsbGF4IiwiSG92ZXJNb2RlIiwiZ3JhYiIsIlBhcmFsbGF4Il0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUNBOztBQUNBOztJQUdhQSxVLEdBS1Qsc0JBQWM7QUFBQTtBQUFBLE9BSlBDLE1BSU87QUFBQSxPQUhQQyxJQUdPO0FBQUEsT0FGUEMsUUFFTztBQUNWLE9BQUtGLE1BQUwsR0FBYyxJQUFkO0FBQ0EsT0FBS0MsSUFBTCxHQUFZRSxxQkFBVUMsSUFBdEI7QUFDQSxPQUFLRixRQUFMLEdBQWdCLElBQUlHLGtCQUFKLEVBQWhCO0FBQ0gsQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7SUhvdmVyRXZlbnR9IGZyb20gXCIuLi8uLi8uLi8uLi9JbnRlcmZhY2VzL09wdGlvbnMvSW50ZXJhY3Rpdml0eS9FdmVudHMvSUhvdmVyRXZlbnRcIjtcbmltcG9ydCB7SG92ZXJNb2RlfSBmcm9tIFwiLi4vLi4vLi4vLi4vRW51bXMvTW9kZXMvSG92ZXJNb2RlXCI7XG5pbXBvcnQge1BhcmFsbGF4fSBmcm9tIFwiLi9QYXJhbGxheFwiO1xuaW1wb3J0IHtJUGFyYWxsYXh9IGZyb20gXCIuLi8uLi8uLi8uLi9JbnRlcmZhY2VzL09wdGlvbnMvSW50ZXJhY3Rpdml0eS9FdmVudHMvSVBhcmFsbGF4XCI7XG5cbmV4cG9ydCBjbGFzcyBIb3ZlckV2ZW50IGltcGxlbWVudHMgSUhvdmVyRXZlbnQge1xuICAgIHB1YmxpYyBlbmFibGU6IGJvb2xlYW47XG4gICAgcHVibGljIG1vZGU6IEhvdmVyTW9kZSB8IEhvdmVyTW9kZVtdO1xuICAgIHB1YmxpYyBwYXJhbGxheDogSVBhcmFsbGF4O1xuXG4gICAgY29uc3RydWN0b3IoKSB7XG4gICAgICAgIHRoaXMuZW5hYmxlID0gdHJ1ZTtcbiAgICAgICAgdGhpcy5tb2RlID0gSG92ZXJNb2RlLmdyYWI7XG4gICAgICAgIHRoaXMucGFyYWxsYXggPSBuZXcgUGFyYWxsYXgoKTtcbiAgICB9XG59XG4iXX0=

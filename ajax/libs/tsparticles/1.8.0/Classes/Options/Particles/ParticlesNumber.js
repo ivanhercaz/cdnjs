@@ -1,0 +1,25 @@
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.ParticlesNumber = void 0;
+
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/classCallCheck"));
+
+var _Density = require("./Density");
+
+var ParticlesNumber = function ParticlesNumber() {
+  (0, _classCallCheck2["default"])(this, ParticlesNumber);
+  this.density = void 0;
+  this.limit = void 0;
+  this.value = void 0;
+  this.density = new _Density.Density();
+  this.limit = 0;
+  this.value = 400;
+};
+
+exports.ParticlesNumber = ParticlesNumber;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3NyYy9DbGFzc2VzL09wdGlvbnMvUGFydGljbGVzL1BhcnRpY2xlc051bWJlci50cyJdLCJuYW1lcyI6WyJQYXJ0aWNsZXNOdW1iZXIiLCJkZW5zaXR5IiwibGltaXQiLCJ2YWx1ZSIsIkRlbnNpdHkiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7O0FBRUE7O0lBRWFBLGUsR0FLVCwyQkFBYztBQUFBO0FBQUEsT0FKUEMsT0FJTztBQUFBLE9BSFBDLEtBR087QUFBQSxPQUZQQyxLQUVPO0FBQ1YsT0FBS0YsT0FBTCxHQUFlLElBQUlHLGdCQUFKLEVBQWY7QUFDQSxPQUFLRixLQUFMLEdBQWEsQ0FBYjtBQUNBLE9BQUtDLEtBQUwsR0FBYSxHQUFiO0FBQ0gsQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7SVBhcnRpY2xlc051bWJlcn0gZnJvbSBcIi4uLy4uLy4uL0ludGVyZmFjZXMvT3B0aW9ucy9QYXJ0aWNsZXMvSVBhcnRpY2xlc051bWJlclwiO1xuaW1wb3J0IHtJRGVuc2l0eX0gZnJvbSBcIi4uLy4uLy4uL0ludGVyZmFjZXMvT3B0aW9ucy9QYXJ0aWNsZXMvSURlbnNpdHlcIjtcbmltcG9ydCB7RGVuc2l0eX0gZnJvbSBcIi4vRGVuc2l0eVwiO1xuXG5leHBvcnQgY2xhc3MgUGFydGljbGVzTnVtYmVyIGltcGxlbWVudHMgSVBhcnRpY2xlc051bWJlciB7XG4gICAgcHVibGljIGRlbnNpdHk6IElEZW5zaXR5O1xuICAgIHB1YmxpYyBsaW1pdDogbnVtYmVyO1xuICAgIHB1YmxpYyB2YWx1ZTogbnVtYmVyO1xuXG4gICAgY29uc3RydWN0b3IoKSB7XG4gICAgICAgIHRoaXMuZGVuc2l0eSA9IG5ldyBEZW5zaXR5KCk7XG4gICAgICAgIHRoaXMubGltaXQgPSAwO1xuICAgICAgICB0aGlzLnZhbHVlID0gNDAwO1xuICAgIH1cbn1cbiJdfQ==

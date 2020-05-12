@@ -22,18 +22,14 @@
     "type": "git",
     "url": "https://github.com/wbotelhos/raty"
   },
-  "version": "2.8.0",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/wbotelhos/raty.git",
-    "fileMap": [
-      {
-        "basePath": "lib",
-        "files": [
-          "**/?(jquery.)raty*",
-          "images/*.png"
-        ]
-      }
-    ]
-  }
+  "version": "2.9.0",
+  "npmName": "raty-js",
+  "npmFileMap": [
+    {
+      "basePath": "lib",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }

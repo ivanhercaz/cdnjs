@@ -16,11 +16,10 @@ var semver = require('semver');
 var tempDirPath;
 var args;
 
-if (fs.existsSync('/run/shm')) {
-  tempDirPath = '/run/shm/' + process.env.USER + '/cdnjs_NPM_temp';
-} else {
-  tempDirPath = path.join(__dirname, 'temp');
+if (process.env.BOT_CDNJS_NPM_TEMP === undefined) {
+  throw 'BOT_CDNJS_NPM_TEMP is missing';
 }
+tempDirPath = process.env.BOT_CDNJS_NPM_TEMP;
 
 colors.setTheme({
   prompt: 'cyan',
@@ -198,6 +197,8 @@ var processNewVersion = function (pkg, version) {
           fs.mkdirsSync(path.dirname(copyPath));
           fs.copySync(extractFilePath, copyPath);
           fs.chmodSync(copyPath, '0644');
+        } else {
+          console.log('Warning! '.warn + copyPart.gray + ' is empty, file will not be copied!');
         }
         updated = true;
       });
@@ -285,6 +286,13 @@ var updateLibrary = function (pkg, cb) {
     return cb(null);
   }
 
+  // if the package has a .do_not_update file we ignore the update process for
+  // it and move on.
+  if (fs.existsSync("./ajax/libs/" + pkg.name + "/.do_not_update")) {
+    console.log('package has .do_not_update; ignore');
+    return cb(null)
+  }
+
   msg = 'Checking versions for ' + pkg.npmName;
   if (pkg.name !== pkg.npmName) {
     msg += ' (' + pkg.name + ')';
@@ -365,3 +373,7 @@ if (args.length > 0 && args[0] === 'run') {
 } else {
   console.log('to start "npm auto-update", pass the "run" arg'.prompt);
 }
+
+process.on('uncaughtException', (err) => {
+  console.log(err);
+});

@@ -1,0 +1,1 @@
+//# sourceMappingURL=IImageShape.js.map

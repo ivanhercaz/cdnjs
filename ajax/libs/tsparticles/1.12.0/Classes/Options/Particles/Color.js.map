@@ -1,0 +1,1 @@
+{"version":3,"file":"Color.js","sourceRoot":"","sources":["../../../../src/Classes/Options/Particles/Color.ts"],"names":[],"mappings":"AAMA,MAAM,OAAO,KAAK;IAGd;QACI,IAAI,CAAC,KAAK,GAAG,MAAM,CAAC;IACxB,CAAC;IAEM,IAAI,CAAC,IAA+B;QACvC,IAAI,IAAI,KAAK,SAAS,EAAE;YACpB,IAAI,IAAI,CAAC,KAAK,KAAK,SAAS,EAAE;gBAC1B,IAAI,CAAC,KAAK,GAAG,IAAI,CAAC,KAAK,CAAC;aAC3B;SACJ;IACL,CAAC;CACJ"}

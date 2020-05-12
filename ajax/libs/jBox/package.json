@@ -12,7 +12,7 @@
     "ui",
     "images"
   ],
-  "version": "0.4.9",
+  "version": "1.2.0",
   "homepage": "http://stephanwagner.me/jBox",
   "author": {
     "name": "Stephan Wagner",
@@ -28,10 +28,11 @@
     "target": "git://github.com/StephanWagner/jBox.git",
     "fileMap": [
       {
-        "basePath": "Source",
+        "basePath": "dist",
         "files": [
           "jBox*",
-          "themes/*.css"
+          "themes/*.css",
+          "plugins/*.(css|js)"
         ]
       }
     ]

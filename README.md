@@ -5,8 +5,13 @@
 [![Drone CI](https://ci.cdnjs.com/api/badges/cdnjs/cdnjs/status.svg?branch=master)](https://ci.cdnjs.com/cdnjs/cdnjs)
 [![Dependency Status](https://img.shields.io/david/cdnjs/cdnjs.svg)](https://david-dm.org/cdnjs/cdnjs)
 [![devDependency Status](https://img.shields.io/david/dev/cdnjs/cdnjs.svg)](https://david-dm.org/cdnjs/cdnjs#info=devDependencies)
-[![tip for next commit](https://img.shields.io/badge/tip4commit-info-orange.svg)](https://tip4commit.com/github/cdnjs/cdnjs)
+[![Community](https://img.shields.io/discourse/https/cdnjs.discourse.group/status.svg?label=community%20Discourse&style=flat)](https://cdnjs.discourse.group/)
+
+[![Open Collective](https://img.shields.io/badge/open%20collective-support%20us-3385FF.svg)](https://opencollective.com/cdnjs)
 [![Bountysource](https://www.bountysource.com/badge/team?team_id=11914&style=bounties_posted)](https://www.bountysource.com/teams/cdnjs/bounties?utm_source=cdnjs&utm_medium=shield&utm_campaign=bounties_posted)
+[![Patreon](https://img.shields.io/badge/patreon-become%20a%20patron-d9643a.svg)](https://www.patreon.com/cdnjs)
+[![Liberapay](https://img.shields.io/badge/liberapay-donate-f6c915.svg)](https://liberapay.com/cdnjs/)
+[![tip4commit](https://img.shields.io/badge/tip4commit-info-orange.svg)](https://tip4commit.com/github/cdnjs/cdnjs)
 
 [![Throughput Graph](https://graphs.waffle.io/cdnjs/cdnjs/throughput.svg)](https://waffle.io/cdnjs/cdnjs/metrics/throughput)
 
@@ -15,6 +20,7 @@
 ## Table of Contents
 
 * [Introduction](#introduction)
+  * [Support Us](#support-us)
 * [latest version URL support](#latest-version-url-support)
 * [Contributing](#contributing)
 * [API usage](#api-usage)
@@ -31,14 +37,17 @@ This is the main repository to maintain the libraries' assets on CDNJS. For our 
 
 CDNJS is a free and open source project to organize and provide popular front-end web development resources to developers via a fast CDN infrastructure without usage limitations and fees. We want to help individual library/framework developers distribute their projects, and web developers supercharge their websites! With our great free CDN service, developers can focus on their projects and website development. Developers no longer have to spend time worrying about how to set-up a CDN for projects or website assets. We hope to make web development easier, as well as your websites and the WWW faster and safer.
 
+Currently, CDNJS is rated No. 2 ([ref](https://w3techs.com/technologies/overview/content_delivery/all)) in web front-end CDN services and has great performance. We fully support [https](https://en.wikipedia.org/wiki/HTTPS), [SPDY](https://en.wikipedia.org/wiki/SPDY), [http/2.0](https://http2.github.io/), and [SRI](https://www.w3.org/TR/SRI/). These will **boost** and **secure** your website with zero configuration. *(Note: You'll still need to take care of server-side and application layer security issues. We make it better, but we can't help you too much if you implement a bad practice.)*
+
+### Support Us!
+
 If you love 💖 what we are doing and would like to help us make the project better, please consider the following options:
 
 1. Become a contributor. Help us write [documentation](https://github.com/cdnjs/cdnjs/tree/master/documents), organize [issues](https://github.com/cdnjs/cdnjs/issues), add libraries, design our [website](https://github.com/cdnjs/new-website), propose features, review [issues](https://github.com/cdnjs/cdnjs/issues) and [pull requests](https://github.com/cdnjs/cdnjs/pulls), etc.
-2. Donate to us on [Gratipay](https://gratipay.com/cdnjs/), [Bountysource](https://www.bountysource.com/teams/cdnjs), or [Tip4Commit](https://tip4commit.com/github/cdnjs/cdnjs).
+
+2. Donate and support us on [Open Collective](https://opencollective.com/cdnjs), [Bountysource](https://www.bountysource.com/teams/cdnjs), [Patreon](https://www.patreon.com/cdnjs), [Liberapay](https://liberapay.com/cdnjs/) or [Tip4Commit](https://tip4commit.com/github/cdnjs/cdnjs).
 
 We really appreciate your help. 😊
-
-Currently, CDNJS is rated No. 2 ([ref](https://w3techs.com/technologies/overview/content_delivery/all)) in web front-end CDN services and has great performance. We fully support [https](https://en.wikipedia.org/wiki/HTTPS), [SPDY](https://en.wikipedia.org/wiki/SPDY), [http/2.0](https://http2.github.io/), and [SRI](https://www.w3.org/TR/SRI/). These will **boost** and **secure** your website with zero configuration. *(Note: You'll still need to take care of server-side and application layer security issues. We make it better, but we can't help you too much if you implement a bad practice.)*
 
 ## latest version URL support
 
@@ -53,6 +62,8 @@ Note that we don't support the feature to use `latest` in the URL because of the
 To contribute to CDNJS, please refer to [CONTRIBUTING.md](https://github.com/cdnjs/cdnjs/blob/master/CONTRIBUTING.md). It should contain most of the things you'll need to get your contribution started!
 
 **Working on your first Pull Request?** Learn how from this *free* series: [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
+
+Want to chat with other users of the CDNJS service and some of the team before making your contribution? You can join our [community Discourse forum](https://cdnjs.discourse.group/) where you can post questions and interact with everyone.
 
 ## API usage
 

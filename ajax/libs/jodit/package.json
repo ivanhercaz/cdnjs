@@ -1,6 +1,6 @@
 {
   "name": "jodit",
-  "version": "3.2.34",
+  "version": "3.3.24",
   "filename": "jodit.min.js",
   "description": "Jodit is awesome and usefully wysiwyg editor with filebrowser",
   "homepage": "http://xdsoft.net/jodit/",
@@ -10,7 +10,7 @@
     "rich",
     "jodit"
   ],
-  "license": "CC-BY-NC-3.0",
+  "license": "MIT",
   "author": "Chupurnov <chupurnov@gmail.com> (http://xdsoft.net/)",
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
     {
       "basePath": "build",
       "files": [
-        "**/!(jodit.min.js.LICENSE)"
+        "jodit*.+(css|js)"
       ]
     }
   ]
